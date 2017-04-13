@@ -1,0 +1,32 @@
+{
+    "name": "bootmenu",
+    "title": "Bootstrap select menu",
+    "description": "A jQuery select menu based on Bootstrap framework.",
+    "keywords": [
+        "selectmenu",
+        "animated",
+        "select",
+        "menu",
+        "Bootstrap"
+    ],
+    "version": "0.0.1",
+    "author": {
+        "name": "Mario Medhat",
+        "email": "mario_medhat@outlook.com",
+        "url": "https://github.com/mariomed7at"
+    },
+    "licenses": [
+        {
+            "type": "MIT",
+            "url": "https://github.com/jquery/jquery-color/blob/2.1.2/MIT-LICENSE.txt"
+        }
+    ],
+    "bugs": "https://github.com/mariomed7at/bootmenu/issues",
+    "homepage": "https://github.com/mariomed7at/bootmenu",
+    "docs": "https://github.com/mariomed7at/bootmenu",
+    "download": "https://github.com/mariomed7at/bootmenu/src",
+    "dependencies": {
+        "jquery": ">=1.5",
+        "bootstrap": "*"
+    }
+}

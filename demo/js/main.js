@@ -30,7 +30,7 @@ $(document).ready(function() {
 
     });
 
-    var food = new Array('Pizza', 'Meat', 'Melon', 'Chicken', "Lasagnia", "Eggs");
+    var food = new Array('Pizza', 'Meat', 'Melon', 'Chicken', "Lasagna", "Eggs");
     $("#selectMenu").bootmenu({
         items: food,
         defaultText: "Select your favorite food",

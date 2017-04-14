@@ -23,6 +23,7 @@
     ],
     "bugs": "https://github.com/mariomed7at/bootmenu/issues",
     "homepage": "https://github.com/mariomed7at/bootmenu",
+    "demo": "https://mariomed7at.github.io/bootmenu/",
     "docs": "https://github.com/mariomed7at/bootmenu",
     "download": "https://github.com/mariomed7at/bootmenu/src",
     "dependencies": {

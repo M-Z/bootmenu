@@ -1,7 +1,7 @@
 Bootmenu
 =========
 
-Simple jQuery animated select menu based n bootstrap framework.
+Simple jQuery animated select menu based on bootstrap framework.
 
 Installation
 ------------

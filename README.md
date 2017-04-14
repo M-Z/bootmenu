@@ -14,37 +14,31 @@ Add [bootmenu.min.js] to your project.
 
 Basic usage
 -----------
-
-Simply call `start()` and `done()` to control the progress bar.
-
 ~~~ js
-NProgress.start();
-NProgress.done();
+$("div").bootmenu({ parameters });
 ~~~
-
-### Turbolinks (version 5+)
-Ensure you're using Turbolinks 5+, and use
-this: (explained [here](https://github.com/rstacruz/nprogress/issues/8#issuecomment-239107109))
-
-~~~ js
-$(document).on('turbolinks:click', function() {
-  NProgress.start();
-});
-$(document).on('turbolinks:render', function() {
-  NProgress.done();
-  NProgress.remove();
-});
-~~~
-
-### Turbolinks (version 3 and below)
-Ensure you're using Turbolinks 1.3.0+, and use
-this: (explained [here](https://github.com/rstacruz/nprogress/issues/8#issuecomment-23010560))
-
 
 Ideas
 -----
-
  * Bind two select menus to make a nested one.
+ ~~~ html
+<div id="selectMenu"></div>
+<div id="selectMenu2"></div>
+ ~~~
+
+ ~~~ js
+ $("#selectMenu").bootmenu({
+       callback: function(value1) {
+           alert(value1);
+           $("#selectMenu2").bootmenu({
+               listName: "MenuTwo",
+               callback: function(value2) {
+                   alert(value2);
+               }
+           });
+       }
+  });
+ ~~~
 
 Configuration
 -------------
@@ -91,6 +85,17 @@ Duration of the animation when clicking the menu. (default: `500ms`)
 
 ~~~ js
 $("#selectMenu").bootmenu({ listAnimation : "fly", animationDuration: 1000 });
+~~~
+
+Callback
+-------------
+~~~ js
+$("#selectMenu").bootmenu({
+                  callback: function(selectedValue)
+                  {
+                      // do something
+                  }
+});
 ~~~
 
 Thanks

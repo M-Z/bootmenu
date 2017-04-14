@@ -17,7 +17,7 @@ Add [bootmenu.min.js] to your project.
 ```html
 <script src='bootmenu.min.js'></script>
 ```
-Bootmenu is also available via [npm](https://www.npmjs.com/package/bootmenu)
+Bootmenu is also available via [npm](https://www.npmjs.com/package/bootmenu)<br />
 $ npm install --save bootmenu
 
 Basic usage

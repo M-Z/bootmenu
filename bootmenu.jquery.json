@@ -3,7 +3,9 @@
     "title": "Bootstrap select menu",
     "description": "A jQuery select menu based on Bootstrap framework.",
     "keywords": [
-        "selectmenu",
+        "select-menu",
+        "jquery-plugin",
+        "ecosystem:jquery",
         "animated",
         "select",
         "menu",

@@ -1,34 +1,36 @@
 {
-    "name": "bootmenu",
-    "title": "Bootstrap select menu",
-    "description": "A jQuery select menu based on Bootstrap framework.",
-    "keywords": [
-        "select-menu",
-        "jquery-plugin",
-        "ecosystem:jquery",
-        "animated",
-        "select",
-        "menu",
-        "Bootstrap"
-    ],
-    "version": "0.1.1",
-    "author": {
-        "name": "Mario Medhat",
-        "email": "mario_medhat@outlook.com",
-        "url": "https://github.com/mariomed7at"
-    },
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/mariomed7at/bootmenu"
+  "name": "bootmenu",
+  "title": "Bootstrap select menu",
+  "description": "A jQuery select menu based on Bootstrap framework.",
+  "keywords": [
+    "select-menu",
+    "jquery-plugin",
+    "ecosystem:jquery",
+    "animated",
+    "select",
+    "menu",
+    "Bootstrap"
+  ],
+  "version": "0.1.2",
+  "author": {
+    "name": "Mario Medhat",
+    "email": "mario_medhat@outlook.com",
+    "url": "https://github.com/mariomed7at"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mariomed7at/bootmenu"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://raw.githubusercontent.com/mariomed7at/bootmenu/master/LICENSE"
     }
-    "licenses": [{
-        "type": "MIT",
-        "url": "https://raw.githubusercontent.com/mariomed7at/bootmenu/master/LICENSE"
-    }],
-    "bugs": "https://github.com/mariomed7at/bootmenu/issues",
-    "homepage": "https://mariomed7at.github.io/bootmenu",
-    "dependencies": {
-        "jquery": ">=1.5",
-        "bootstrap": "*"
-    }
+  ],
+  "bugs": "https://github.com/mariomed7at/bootmenu/issues",
+  "homepage": "https://mariomed7at.github.io/bootmenu",
+  "dependencies": {
+    "jquery": ">=1.5",
+    "bootstrap": "*"
+  }
 }

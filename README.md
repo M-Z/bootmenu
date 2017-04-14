@@ -73,7 +73,7 @@ $("#selectMenu").bootmenu({ background : "#000", hoverColor: "#fff" });
 ~~~
 
 #### `listAnimation`
-The animation effect when clicking the select menu. (default: `slideDown`)
+The animation effect when clicking the select menu. (default: `slideDown`)<br>
 Available animations: rotation, slideDown, fade, slideLeft, rotate, fly,
 
 ~~~ js
@@ -91,20 +91,19 @@ Callback
 -------------
 ~~~ js
 $("#selectMenu").bootmenu({
-                  callback: function(selectedValue)
-                  {
-                      // do something
-                  }
+    callback: function(selectedValue)
+    {
+         // do something
+    }
 });
 ~~~
 
 Thanks
 ------
 
-**NProgress** © 2013-2014, Rico Sta. Cruz. Released under the [MIT License].<br>
-Authored and maintained by Rico Sta. Cruz with help from [contributors].
+**Bootmenu** © 2016-2017.
 
 > GitHub [@mariomed7at](https://github.com/mariomed7at) &nbsp;&middot;&nbsp;
-> Facebook [@Mario Medhat](https://www.facebook.com/mario.medhat1)
+> Facebook [Mario Medhat](https://www.facebook.com/mario.medhat1)
 
 [MIT License]: http://mit-license.org/

@@ -9,7 +9,7 @@
         "menu",
         "Bootstrap"
     ],
-    "version": "0.1.0",
+    "version": "0.1.1",
     "author": {
         "name": "Mario Medhat",
         "email": "mario_medhat@outlook.com",
@@ -18,14 +18,14 @@
     "licenses": [
         {
             "type": "MIT",
-            "url": "https://github.com/jquery/jquery-color/blob/2.1.2/MIT-LICENSE.txt"
+            "url": "https://raw.githubusercontent.com/mariomed7at/bootmenu/master/LICENSE"
         }
     ],
     "bugs": "https://github.com/mariomed7at/bootmenu/issues",
-    "homepage": "https://github.com/mariomed7at/bootmenu",
-    "demo": "https://mariomed7at.github.io/bootmenu/",
-    "docs": "https://github.com/mariomed7at/bootmenu",
-    "download": "https://github.com/mariomed7at/bootmenu/src",
+    "homepage": "https://mariomed7at.github.io/bootmenu",
+    "demo": "https://mariomed7at.github.io/bootmenu/demo",
+    "docs": "https://mariomed7at.github.io/bootmenu",
+    "download": "https://github.com/mariomed7at/bootmenu/tree/master/src",
     "dependencies": {
         "jquery": ">=1.5",
         "bootstrap": "*"

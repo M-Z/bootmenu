@@ -1,7 +1,7 @@
 {
     "name": "bootmenu",
     "title": "Bootstrap select menu",
-    "description": "A jQuery select menu based on Bootstrap framework.",
+    "description": "A jQuery searchable select menu based on Bootstrap framework.",
     "keywords": [
         "select-menu",
         "jquery-plugin",

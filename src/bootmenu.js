@@ -1,5 +1,5 @@
 /*
- * bootmenu v0.1.0
+ * bootmenu v0.1.3
  * A simple and easy jQuery plugin for Bootstrap select menu.
  * Author : Mario Medhat
  */

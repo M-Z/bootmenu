@@ -1,7 +1,7 @@
 [Bootmenu](https://mariomed7at.github.io/bootmenu/)
 =========
 
-Simple jQuery animated select menu based on bootstrap framework.
+Simple jQuery animated searchable select menu based on bootstrap framework.
 
 
 [Demo](https://mariomed7at.github.io/bootmenu/demo)
@@ -28,7 +28,7 @@ $("div").bootmenu({ parameters });
 
 Ideas
 -----
- * Bind two select menus to make a nested one.
+ * Bind two select menus on the callback to make a nested one.
  ~~~ html
 <div id="selectMenu"></div>
 <div id="selectMenu2"></div>

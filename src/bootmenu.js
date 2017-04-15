@@ -180,7 +180,7 @@
 
         // When user press a list item
         var select = $('ul#' + settings.listName + ' a').on("click", function() {
-            var value = atob($(this).attr('currentValue')),
+            var value = $(this).attr('currentValue'),
                 angle = 0;
             $(this).animateIt("submit");
             $("div[list=" + settings.listName + "] span i").animateIt("rotation", angle);

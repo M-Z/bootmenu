@@ -26,7 +26,7 @@
 
         // Add list items
         for (i = 0, j = settings.items.length; i < j; i++)
-            dropDown += "<a class=\"list-group-item\" currentValue=\"" + btoa(settings.items[i]) + "\">" + settings.items[i] + "</a>";
+            dropDown += "<a class=\"list-group-item\" currentValue=\"" + settings.items[i] + "\">" + settings.items[i] + "</a>";
 
         dropDown += "</ul>";
 

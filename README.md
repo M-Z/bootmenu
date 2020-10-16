@@ -1,10 +1,10 @@
-[Bootmenu](https://mariomed7at.github.io/bootmenu/)
+[Bootmenu](https://m-z.github.io/bootmenu/)
 =========
 
 Simple jQuery animated searchable select menu based on bootstrap framework.
 
 
-[Demo](https://mariomed7at.github.io/bootmenu/demo)
+[Demo](https://m-z.github.io/bootmenu/demo)
 ------
 
 
@@ -112,6 +112,5 @@ Thanks
 **Bootmenu** © 2016-2017.
 
 > GitHub [@mariomed7at](https://github.com/mariomed7at) &nbsp;&middot;&nbsp;
-> Facebook [Mario Medhat](https://www.facebook.com/mario.medhat1)
 
 [MIT License]: http://mit-license.org/

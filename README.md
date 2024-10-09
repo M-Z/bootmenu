@@ -111,6 +111,6 @@ Thanks
 
 **Bootmenu** © 2016-2017.
 
-> GitHub [@mariomed7at](https://github.com/mariomed7at) &nbsp;&middot;&nbsp;
+> GitHub [@mariomed7at](https://github.com/M-Z) &nbsp;&middot;&nbsp;
 
 [MIT License]: http://mit-license.org/
